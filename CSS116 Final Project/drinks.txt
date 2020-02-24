@@ -1,0 +1,24 @@
+Aquafina, PepsiCo, 1.75, 1, 20, 0
+Mountain Dew, PepsiCo, 1.75, 1, 20, 290, 77, 91
+Coke, The Coca-Cola Company, 1.75, 1, 20, 240, 65, 57
+Monster, Monster Energy, 2.75, 2, 8, 100, 80
+Snapple: Kiwi Strawberry, Snapple, 2.50, 1, 16, 45
+Powerade: Fruit punch, Coke-Cola, 2.00, 1, 20, 130
+Snapple: Lemon Tea, Snapple, 2.50, 1, 16, 36
+Orange Carrot, Naked, 3.50, 1, 15.2, 230, Yes, August, 15, 2018
+Coke Zero, The Coca-Cola Company, 1.75, 1, 20, 0, 0, 57
+Powerade: Lemon lime, The Coca-Cola Company, 1.75, 1, 20, 130
+Frappuccino, Starbucks, 3.00, 1, 13.7, 300, 130
+Allure Aloe Mangostein Mango, ALO, 1.75, 1, 16.9, 140, Yes, May, 5, 2018
+Gatorade, PepsiCo, 0.88, 1, 19.98, 150, 0
+Organic Fruit, Core, 2.37, 1, 18, 5, Yes, May, 11, 2018
+Dr.Pepper, Dr.Pepper Snapple Group, .50, 1, 7.5, 93, 23.9, 25.65
+Pepsi, PepsiCo, .75, 1, 12, 150, 41, 38
+Blue Machine, Naked, 3.50, 1, 15.2, 320, Yes, August, 10, 2018
+UP, UP ENERGY DRINKS LLC, 2.25, 1, 16, 15, 200
+Tropicana, PepsiCo, 2.25, 1, 12, 170, Yes, May, 5, 2018
+Red Bull, Red Bull GmbH, 2.50, 1, 12, 168, 111
+Fanta, The Coca-Cola Company, .50, 12, 1, 160, 8, 0
+Sprite, The Coca-Cola Company, .75, 12, 140, 27, 0
+Vitamin Water, The Coca-Cola Company, 1.00, 20, 1, 50, No, April, 28, 2018
+Rockstar: Energy Drink, Rockstar, 2.75, 2, 8, 130, 80

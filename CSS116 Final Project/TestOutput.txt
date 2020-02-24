@@ -1,0 +1,319 @@
+Kevin Cho and Mohammed Chisti
+ 
+---Testing for addDrink()---
+Sample Input: Mug Cream Soda, Pepsico, 2.00, 1, 20, 290, 79, 0
+Expected: displayAll() shows at end of list Mug Cream Soda 
+i= 0	
+Drink: Aquafina ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+
+i= 1	
+Drink: Mountain Dew ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 290
+Sugar content: 77grams ; Caffeine: 91mg 
+
+i= 2	
+Drink: Coke ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 240
+Sugar content: 65grams ; Caffeine: 57mg 
+
+i= 3	
+Drink: Monster ; Company: Monster Energy ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 100
+Caffeine:  80 ml 
+
+i= 4	
+Drink: Snapple: Kiwi Strawberry ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 45
+
+i= 5	
+Drink: Powerade: Fruit punch ; Company: Coke-Cola ; Cost: $ 2.00 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 6	
+Drink: Snapple: Lemon Tea ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 36
+
+i= 7	
+Drink: Orange Carrot ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 230
+ GMO-free status:  Yes ; Expires on:  August  15,  2018
+
+i= 8	
+Drink: Coke Zero ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+Sugar content: 0grams ; Caffeine: 57mg 
+
+i= 9	
+Drink: Powerade: Lemon lime ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 10	
+Drink: Frappuccino ; Company: Starbucks ; Cost: $ 3.00 ; Serving size: 1 ; Serving amount: 13.7oz ; Calories: 300
+Caffeine:  130 ml 
+
+i= 11	
+Drink: Allure Aloe Mangostein Mango ; Company: ALO ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 16.9oz ; Calories: 140
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 12	
+Drink: Gatorade ; Company: PepsiCo ; Cost: $ 0.88 ; Serving size: 1 ; Serving amount: 19.98oz ; Calories: 150
+Caffeine:  0 ml 
+
+i= 13	
+Drink: Organic Fruit ; Company: Core ; Cost: $ 2.37 ; Serving size: 1 ; Serving amount: 18oz ; Calories: 5
+ GMO-free status:  Yes ; Expires on:  May  11,  2018
+
+i= 14	
+Drink: Dr.Pepper ; Company: Dr.Pepper Snapple Group ; Cost: $ .50 ; Serving size: 1 ; Serving amount: 7.5oz ; Calories: 93
+Sugar content: 23.9grams ; Caffeine: 25.65mg 
+
+i= 15	
+Drink: Pepsi ; Company: PepsiCo ; Cost: $ .75 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 150
+Sugar content: 41grams ; Caffeine: 38mg 
+
+i= 16	
+Drink: Blue Machine ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 320
+ GMO-free status:  Yes ; Expires on:  August  10,  2018
+
+i= 17	
+Drink: UP ; Company: UP ENERGY DRINKS LLC ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 15
+Caffeine:  200 ml 
+
+i= 18	
+Drink: Tropicana ; Company: PepsiCo ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 170
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 19	
+Drink: Red Bull ; Company: Red Bull GmbH ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 168
+Caffeine:  111 ml 
+
+i= 20	
+Drink: Fanta ; Company: The Coca-Cola Company ; Cost: $ .50 ; Serving size: 12 ; Serving amount: 1oz ; Calories: 160
+Sugar content: 8grams ; Caffeine: 0mg 
+
+i= 21	
+Drink: Sprite ; Company: The Coca-Cola Company ; Cost: $ .75 ; Serving size: 12 ; Serving amount: 140oz ; Calories: 27
+Caffeine:  0 ml 
+
+i= 22	
+Drink: Vitamin Water ; Company: The Coca-Cola Company ; Cost: $ 1.00 ; Serving size: 20 ; Serving amount: 1oz ; Calories: 50
+ GMO-free status:  No ; Expires on:  April  28,  2018
+
+i= 23	
+Drink: Rockstar: Energy Drink ; Company: Rockstar ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 130
+Caffeine:  80 ml 
+
+i= 24	
+Drink: Mug Cream Soda ; Company:Pepsico ; Cost: $2.00 ; Serving size:1 ; Serving amount:20oz ; Calories:290
+Sugar content:79grams ; Caffeine:0mg 
+
+
+ 
+---Testing deleteDrink()---
+Sample Input: Array Location of Mug Cream Soda
+Expected: displayAll() shows all drinks except Mug Cream Soda.
+i= 0	
+Drink: Aquafina ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+
+i= 1	
+Drink: Mountain Dew ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 290
+Sugar content: 77grams ; Caffeine: 91mg 
+
+i= 2	
+Drink: Coke ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 240
+Sugar content: 65grams ; Caffeine: 57mg 
+
+i= 3	
+Drink: Monster ; Company: Monster Energy ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 100
+Caffeine:  80 ml 
+
+i= 4	
+Drink: Snapple: Kiwi Strawberry ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 45
+
+i= 5	
+Drink: Powerade: Fruit punch ; Company: Coke-Cola ; Cost: $ 2.00 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 6	
+Drink: Snapple: Lemon Tea ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 36
+
+i= 7	
+Drink: Orange Carrot ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 230
+ GMO-free status:  Yes ; Expires on:  August  15,  2018
+
+i= 8	
+Drink: Coke Zero ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+Sugar content: 0grams ; Caffeine: 57mg 
+
+i= 9	
+Drink: Powerade: Lemon lime ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 10	
+Drink: Frappuccino ; Company: Starbucks ; Cost: $ 3.00 ; Serving size: 1 ; Serving amount: 13.7oz ; Calories: 300
+Caffeine:  130 ml 
+
+i= 11	
+Drink: Allure Aloe Mangostein Mango ; Company: ALO ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 16.9oz ; Calories: 140
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 12	
+Drink: Gatorade ; Company: PepsiCo ; Cost: $ 0.88 ; Serving size: 1 ; Serving amount: 19.98oz ; Calories: 150
+Caffeine:  0 ml 
+
+i= 13	
+Drink: Organic Fruit ; Company: Core ; Cost: $ 2.37 ; Serving size: 1 ; Serving amount: 18oz ; Calories: 5
+ GMO-free status:  Yes ; Expires on:  May  11,  2018
+
+i= 14	
+Drink: Dr.Pepper ; Company: Dr.Pepper Snapple Group ; Cost: $ .50 ; Serving size: 1 ; Serving amount: 7.5oz ; Calories: 93
+Sugar content: 23.9grams ; Caffeine: 25.65mg 
+
+i= 15	
+Drink: Pepsi ; Company: PepsiCo ; Cost: $ .75 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 150
+Sugar content: 41grams ; Caffeine: 38mg 
+
+i= 16	
+Drink: Blue Machine ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 320
+ GMO-free status:  Yes ; Expires on:  August  10,  2018
+
+i= 17	
+Drink: UP ; Company: UP ENERGY DRINKS LLC ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 15
+Caffeine:  200 ml 
+
+i= 18	
+Drink: Tropicana ; Company: PepsiCo ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 170
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 19	
+Drink: Red Bull ; Company: Red Bull GmbH ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 168
+Caffeine:  111 ml 
+
+i= 20	
+Drink: Fanta ; Company: The Coca-Cola Company ; Cost: $ .50 ; Serving size: 12 ; Serving amount: 1oz ; Calories: 160
+Sugar content: 8grams ; Caffeine: 0mg 
+
+i= 21	
+Drink: Sprite ; Company: The Coca-Cola Company ; Cost: $ .75 ; Serving size: 12 ; Serving amount: 140oz ; Calories: 27
+Caffeine:  0 ml 
+
+i= 22	
+Drink: Vitamin Water ; Company: The Coca-Cola Company ; Cost: $ 1.00 ; Serving size: 20 ; Serving amount: 1oz ; Calories: 50
+ GMO-free status:  No ; Expires on:  April  28,  2018
+
+i= 23	
+Drink: Rockstar: Energy Drink ; Company: Rockstar ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 130
+Caffeine:  80 ml 
+
+
+ 
+---Testing Incorrect user input---
+Sample Input: t when menu prompts for int.
+Expected: Console prints 'Enter a valid input'.
+Enter a valid number input
+ 
+---Testing selectSort()---
+Expected: displayAll() prints all drinks alphabetically.
+i= 0	
+Drink: Allure Aloe Mangostein Mango ; Company: ALO ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 16.9oz ; Calories: 140
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 1	
+Drink: Aquafina ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+
+i= 2	
+Drink: Blue Machine ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 320
+ GMO-free status:  Yes ; Expires on:  August  10,  2018
+
+i= 3	
+Drink: Coke ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 240
+Sugar content: 65grams ; Caffeine: 57mg 
+
+i= 4	
+Drink: Coke Zero ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 0
+Sugar content: 0grams ; Caffeine: 57mg 
+
+i= 5	
+Drink: Dr.Pepper ; Company: Dr.Pepper Snapple Group ; Cost: $ .50 ; Serving size: 1 ; Serving amount: 7.5oz ; Calories: 93
+Sugar content: 23.9grams ; Caffeine: 25.65mg 
+
+i= 6	
+Drink: Fanta ; Company: The Coca-Cola Company ; Cost: $ .50 ; Serving size: 12 ; Serving amount: 1oz ; Calories: 160
+Sugar content: 8grams ; Caffeine: 0mg 
+
+i= 7	
+Drink: Frappuccino ; Company: Starbucks ; Cost: $ 3.00 ; Serving size: 1 ; Serving amount: 13.7oz ; Calories: 300
+Caffeine:  130 ml 
+
+i= 8	
+Drink: Gatorade ; Company: PepsiCo ; Cost: $ 0.88 ; Serving size: 1 ; Serving amount: 19.98oz ; Calories: 150
+Caffeine:  0 ml 
+
+i= 9	
+Drink: Monster ; Company: Monster Energy ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 100
+Caffeine:  80 ml 
+
+i= 10	
+Drink: Mountain Dew ; Company: PepsiCo ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 290
+Sugar content: 77grams ; Caffeine: 91mg 
+
+i= 11	
+Drink: Orange Carrot ; Company: Naked ; Cost: $ 3.50 ; Serving size: 1 ; Serving amount: 15.2oz ; Calories: 230
+ GMO-free status:  Yes ; Expires on:  August  15,  2018
+
+i= 12	
+Drink: Organic Fruit ; Company: Core ; Cost: $ 2.37 ; Serving size: 1 ; Serving amount: 18oz ; Calories: 5
+ GMO-free status:  Yes ; Expires on:  May  11,  2018
+
+i= 13	
+Drink: Pepsi ; Company: PepsiCo ; Cost: $ .75 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 150
+Sugar content: 41grams ; Caffeine: 38mg 
+
+i= 14	
+Drink: Powerade: Fruit punch ; Company: Coke-Cola ; Cost: $ 2.00 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 15	
+Drink: Powerade: Lemon lime ; Company: The Coca-Cola Company ; Cost: $ 1.75 ; Serving size: 1 ; Serving amount: 20oz ; Calories: 130
+
+i= 16	
+Drink: Red Bull ; Company: Red Bull GmbH ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 168
+Caffeine:  111 ml 
+
+i= 17	
+Drink: Rockstar: Energy Drink ; Company: Rockstar ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 130
+Caffeine:  80 ml 
+
+i= 18	
+Drink: Snapple: Kiwi Strawberry ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 45
+
+i= 19	
+Drink: Snapple: Lemon Tea ; Company: Snapple ; Cost: $ 2.50 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 36
+
+i= 20	
+Drink: Sprite ; Company: The Coca-Cola Company ; Cost: $ .75 ; Serving size: 12 ; Serving amount: 140oz ; Calories: 27
+Caffeine:  0 ml 
+
+i= 21	
+Drink: Tropicana ; Company: PepsiCo ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 12oz ; Calories: 170
+ GMO-free status:  Yes ; Expires on:  May  5,  2018
+
+i= 22	
+Drink: UP ; Company: UP ENERGY DRINKS LLC ; Cost: $ 2.25 ; Serving size: 1 ; Serving amount: 16oz ; Calories: 15
+Caffeine:  200 ml 
+
+i= 23	
+Drink: Vitamin Water ; Company: The Coca-Cola Company ; Cost: $ 1.00 ; Serving size: 20 ; Serving amount: 1oz ; Calories: 50
+ GMO-free status:  No ; Expires on:  April  28,  2018
+
+
+ 
+---Testing searchDrink()---
+Sample Input: 'Monster'
+Expected: Console prints the drink object of monster
+Monster found.
+
+Drink: Monster ; Company: Monster Energy ; Cost: $ 2.75 ; Serving size: 2 ; Serving amount: 8oz ; Calories: 100
+Caffeine:  80 ml 
+
+ 
+---Testing searchDrink()---
+Sample Input: 'FakeDrink'
+Expected: Console prints Drink not found. Try again. Make sure you capitilize.
+Drink not found. Try again. Make sure you capitilize.
+ 
+---Testing dailyIntake()
+Sample Input: 'Monster', 'Pepsi', 'VitaminWater'
+Expected: Console prints different daily value strings for each different type of drink
+Monster:One serving of this drink is 5.0% of a 2000 calorie diet. Also one serving contains 20.0% of your daily caffeine intake.
+
+Pepsi:One serving of this drink is 8.0% of a 2000 calorie diet. Also one serving contains 114.0% of your daily sugar intake along with 10.0% of your daily caffeine intake.
+VitaminWater: One serving of this drink is 3.0% of a 2000 calorie diet. 
